@@ -31,11 +31,11 @@ const ContactForm = () => {
           </div>
           <div className= {styles.form_control}>
             <label htmlFor = "text">Text</label>
-            <textarea name = "text" />
+            <textarea name = "text" rows = "6" />
           </div>
 
-          <div>
-            <Button isOutline = {true} text = "SUBMIT BUTTON"/>
+          <div style = { {display: "flex" , justifyContent: "end",}}>
+            <Button text = "SUBMIT BUTTON"/>
           </div>
           
 
@@ -43,7 +43,9 @@ const ContactForm = () => {
         
       </div>
 
-      <div className = {styles.contact_image}> </div>
+      <div className = {styles.contact_image}> 
+        <img src = "/images/contact.png" alt = "contact image" />
+      </div>
 
     </section>
   );
