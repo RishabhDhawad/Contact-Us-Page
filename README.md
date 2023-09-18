@@ -4,6 +4,4 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="screenshort.png" alt="project-screenshot" width="400" height="400/">
-
-<img src="" alt="project-screenshot" width="400" height="400/">
+<p align="center"><img src="public\images\screenshort.png" alt="project-image"></p>
